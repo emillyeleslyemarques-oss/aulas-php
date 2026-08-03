@@ -11,7 +11,9 @@ Neste projeto, estamos estudando a **linguagem PHP**.
 $aluno = "Fulano";
 const  ESCOLA = "Senac";
 ```
-- Arrays e objetos genéricos
+
+- Arrays: `$alunos = ["a", "b"];`
+- Objetos genéricos
 
 ## Recursos para estudar
 
