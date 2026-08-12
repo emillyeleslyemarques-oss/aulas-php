@@ -83,6 +83,25 @@ function exibirDadosDoAutor(){
     <p>Número 10: <?= verificarNegativo(10) ?></p>
     <p>Número -10: <?= verificarNegativo(-10) ?></p>
 
+    <hr>
+
+    <h2>Função anônima (ou lambda)</h2>
+    <?php //Sempre declare primeiro a função
+    $multiplicar = function(float $valor1, float $valor2):float{
+        return $valor1 * $valor2;
+    };
+    ?>
+    <!-- Repare no uso do $ junto com o nome da funçaõ: -->
+    <p>Exemplo: <?= $multiplicar(10, 2) ?></p>
+
+    <hr>
+
+    <h2>Arrow Function</h2>
+    <?php //Repare que omitimos os chaves e o return
+    $subtrair = fn( float $valor1,  float $valor2):float => $valor1 - $valor2;
+    ?>
+    <p>Exemplo: <?= $subtrair(10, 1) ?></p>
+
 
 
 
