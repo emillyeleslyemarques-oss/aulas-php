@@ -6,6 +6,9 @@
     <title>Exercicio 04</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
      rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <style>
+        tr:nth-child(3) td {background-color: red;}
+     </style>
 </head>
 <body class="p-4">
 
@@ -55,7 +58,7 @@ $linguagens = [
 
     <h2>Exibição em tabela</h2>
    <div>
-    <table class=" table table-striped table-hover table-bordered">
+    <table class=" table table-striped table-hover table-bordered  table-primary">
      <thead class="table-dark">
         <tr>
             <th scope="col">ID</th>
