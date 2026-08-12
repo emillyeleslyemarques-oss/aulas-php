@@ -73,12 +73,15 @@ function exibirDadosDoAutor(){
 
     <h2>Função com indução de tipos de dados</h2>
     <p>Nesta abordagem, defiimos tipos de dados
-    para os parâmetos e para o retorno da função.</p>
+    para os parâmetos e para o <b>retorno da função</b>.</p>
     <?php 
-    function verificarNegativo(int $valor){
-         
+    function verificarNegativo(int $valor):string {
+        if($valor < 0) return "é negativo";
+        return "não é negativo"; 
     }
     ?>
+    <p>Número 10: <?= verificarNegativo(10) ?></p>
+    <p>Número -10: <?= verificarNegativo(-10) ?></p>
 
 
 
