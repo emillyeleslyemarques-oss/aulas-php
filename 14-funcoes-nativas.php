@@ -120,7 +120,14 @@ $tipoServicos = array_column($servicos, "tipo");
 
      <hr>
  
-     <h2>array filder()</h2>
+     <h2>array filter()</h2>
+     <p>Retorna valores para um novo array baseado em alguma condição/criterio.</p>
+<?php 
+$servicosConcluidos = array_filter(
+    $servicos, fn(array $servico):bool => $servico["status"] === "Concluído"
+);
+?>
+    <pre><?php var_dump($servicosConcluidos) ?></pre>
  
     </div>
  
