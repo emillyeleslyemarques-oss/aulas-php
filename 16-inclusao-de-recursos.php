@@ -27,6 +27,12 @@
        <section>
            <h3>Titulo qualquer</h3>
            <?php include "textos.php"; ?>
+
+           <ul>
+             <?php foreach($tecnologias as $tecnologia): ?>
+             <li><?= $tecnologia ?></li>
+             <?php endforeach; ?>
+           </ul>
        </section>
     </div>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384

@@ -1,6 +1,9 @@
+<!-- textos.php -->
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis quod obcaecati
  est illum tempora ullam voluptatibus maxime porro. Laboriosam distinctio
  quos quibusdam a molestias et libero dignissimos inventore quia!</p>
+
+ <?php include "lista.html" ;?>
 
  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
